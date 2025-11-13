@@ -1,4 +1,4 @@
-# Reinforcement Learning for Wireless Charging with Dynamic Metasurfaces
+# Deep Reinforcement Learning for Multi-User RF Charging with Non-linear Energy Harvesters
 
 This repository accompanies the paper published in *IEEE Transactions on Wireless Communications* on reinforcement learning (RL) for multi-user wireless power transfer (WPT) with dynamic metasurface antennas (DMAs). It provides a self-contained Jupyter notebook that recreates the simulation environment, RL agent, and evaluation workflow described in the publication. The notebook focuses on training a Deep Deterministic Policy Gradient (DDPG) agent to jointly tune DMA beamforming weights and transmit power so that multiple low-power devices can replenish their energy buffers while minimizing outages and energy expenditure.【F:RL_charging.ipynb†L1】【F:RL_charging.ipynb†L1】
 
@@ -56,8 +56,21 @@ Training is compute-intensive: each episode simulates 100 time slots and require
 
 ## Citing
 
-If you use this repository in your research, please cite the corresponding *IEEE Transactions on Wireless Communications* article (also available on arXiv). Include the standard bibliographic entry provided by the authors when referencing the paper.
+If you use this code, please cite the associated article. A BibTeX entry is provided below.
 
-## Support and contributions
+```bibtex
+@INPROCEEDINGS{RL_WPT_azarbahran,
+  author={Azarbahram, Amirhossein and López, Onel L. A. and Popovski, Petar and Pandey, Shashi Raj and Latva-aho, Matti},
+  booktitle={GLOBECOM 2024 - 2024 IEEE Global Communications Conference}, 
+  title={Deep Reinforcement Learning for Multi-User RF Charging with Non-linear Energy Harvesters}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={3075-3080},
+  keywords={Radio frequency;Performance evaluation;Energy consumption;Power demand;Array signal processing;Markov decision processes;Wireless power transfer;Probability;Power system reliability;Internet of Things;Radio frequency wireless charging;energy beamforming;near-field channels;charging scheduling},
+  doi={10.1109/GLOBECOM52923.2024.10901606}}
+```
 
-Issues and pull requests are welcome for clarifications or quality-of-life improvements to the notebook. When contributing, please describe the motivation, summarize changes, and share any relevant simulation or training logs.
+## License
+
+The repository inherits the usage rights granted by the original authors. Refer to the paper or contact the authors for explicit licensing terms.
