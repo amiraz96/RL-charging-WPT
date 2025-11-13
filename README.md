@@ -1,6 +1,3 @@
-E.md
-+14
--12
 
 # Deep Reinforcement Learning for Multi-User RF Charging with Non-linear Energy Harvesters
 
