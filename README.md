@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning for Multi-User RF Charging with Non-linear Energy Harvesters
 
-This repository accompanies the paper published in *IEEE Transactions on Wireless Communications* on reinforcement learning (RL) for multi-user wireless power transfer (WPT) with dynamic metasurface antennas (DMAs). It provides a self-contained Jupyter notebook that recreates the simulation environment, RL agent, and evaluation workflow described in the publication. The notebook focuses on training a Deep Deterministic Policy Gradient (DDPG) agent to jointly tune DMA beamforming weights and transmit power so that multiple low-power devices can replenish their energy buffers while minimizing outages and energy expenditure.【F:RL_charging.ipynb†L1】【F:RL_charging.ipynb†L1】
+This repository accompanies the paper published in *IEEE GLOBECOM 2024* on reinforcement learning (RL) for multi-user charging. It provides a self-contained Jupyter notebook that recreates the simulation environment, RL agent, and evaluation workflow described in the publication. The notebook focuses on training a Deep Deterministic Policy Gradient (DDPG) agent to jointly tune DMA beamforming weights and transmit power so that multiple low-power devices can replenish their energy buffers while minimizing outages and energy expenditure.
 
 ## Repository contents
 
